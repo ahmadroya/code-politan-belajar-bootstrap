@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Helper-Component</title>
+    <link rel="icon" href="img/icon-bootstrap.png">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- label -->
+        <h1>Contoh Label Pada Heading</h1>
+        <h3>Example heading <span class="label label-default">New</span></h3>
+        <br><br><br>
+        <!-- Label Berwarna -->
+        <h1>Label Berwarna</h1>
+        <span class="label label-default">Default</span>
+        <span class="label label-primary">Primary</span>
+        <span class="label label-success">Success</span>
+        <span class="label label-info">Info</span>
+        <span class="label label-warning">Warning</span>
+        <span class="label label-danger">Danger</span>
+        <br><br><br>
+        <!-- badge, berguna unt. notifikasi -->
+        <h1>Badge</h1>
+        <a href="#">Inbox <span class="badge">42</span></a>
+
+        <button class="btn btn-primary" type="button">
+            Messages <span class="badge">4</span>
+        </button>
+        <br><br><br>
+        <!-- menambahkan badge di navigasi -->
+        <h1>Menambahkan Badge di Navigasi</h1>
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+        </ul>
+        <br><br><br>
+        <!-- Thumbnail -->
+        <h1>Thumbnail</h1>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/icon-bootstrap.png" alt="besar banget sebenarnya">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/icon-bootstrap.png" alt="besar banget sebenarnya">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/icon-bootstrap.png" alt="besar banget sebenarnya">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="img/icon-bootstrap.png" alt="besar banget sebenarnya">
+                </a>
+            </div>
+            ...
+        </div>
+        <!-- Alert-->
+        <h1>Alert-Semacam notifikasi</h1>
+        <div>
+            <div class="alert alert-success" role="alert">Sukses...</div>
+            <div class="alert alert-info" role="alert">Skefo- sekedar Info...</div>
+            <div class="alert alert-warning" role="alert"> Warning Perhatian Hati-Hati...</div>
+            <div class="alert alert-danger" role="alert"> Ada Bahaya Akhi...</div>
+        </div>
+        <br><br><br>
+        <!-- Progress Bar -->
+        <h1>Progres Bar</h1>
+        <div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 40%">
+                    <span class="sr-only">40% Complete (success)</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 20%">
+                    <span class="sr-only">20% Complete</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 60%">
+                    <span class="sr-only">60% Complete (warning)</span>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 80%">
+                    <span class="sr-only">80% Complete (danger)</span>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <!-- Resposive Embed -->
+        <h1>Responsive Embed</h1>
+        <!-- 16:9 aspect ratio -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="video.webm"></iframe>
+        </div>
+
+        <!-- 4:3 aspect ratio -->
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="..."></iframe>
+        </div>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
